@@ -1,0 +1,303 @@
+body {
+  min-width: 960px;
+  font-size: 12px;
+  font-family: Arial, Verdana, sans-serif;
+  color: #5d5d5d;
+  background: #f4f4f4;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+p,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #fe9b00;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main-header {
+  margin-bottom: 20px;
+}
+
+.main-header .container {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 15px;
+}
+
+.header-logo {
+  margin-top: 20px;
+  float: left;
+}
+
+.header-logo img {
+  width: 138px;
+  height: 100px;
+}
+
+.main-navigation {
+  float: right;
+  color:#fe9b00;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+.main-navigation .active a {
+  color: #000;
+}
+
+.main-content-img {
+  position: relative;
+  width: 960px;
+  height: 380px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.main-content-img img {
+  width: 960px;
+  height: 380px;
+}
+
+.black-view {
+  font-size: 15px;
+  position: absolute;
+  bottom: 70px;
+  left: 30px;
+  padding: 10px;
+  width: 440px;
+  background: #000;
+}
+
+.black-view p {
+  text-transform: uppercase;
+  float: left;
+}
+
+.black-view a {
+  float: right;
+}
+
+.black {
+  position: absolute;
+  top: 25px;
+  right: 358px;
+  width: 100px;
+  background: #ccc;
+}
+
+.advantages {
+  padding-bottom: 35px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.advantages-item {
+  float: left;
+  width: 285px;
+  margin-right: 50px;
+}
+
+.advantages-item:last-child {
+  margin-right: 0;
+}
+
+.advantages-item .advantages-name {
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000;
+}
+
+.advantages-item .advantages-name:after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  height: 5px;
+  width: 100%;
+  background: #000;
+}
+
+.advantages-item p {
+  margin-bottom: 15px;
+}
+
+.advantages-list p {
+  margin-bottom: 0;
+}
+
+.advantages-list li {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.advantages-list li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -25px;
+  width: 16px;
+  height: 16px;
+  background: url("../images/checkbox.jpg");
+}
+
+.advantages-item.signature {
+  color: #090909;
+}
+
+.our-work {
+  margin-bottom: 20px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.content-title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #090909;
+}
+
+.our-work .our-work-img {
+  position: relative;
+  float: left;
+  width: 215px;
+  margin-right: 20px;
+}
+
+.our-work .our-work-img img {
+  width: 215px;
+  height: 135px;
+}
+
+.our-work .our-work-img:last-child {
+  margin-right: 0;
+}
+
+.our-work-img .view {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px 10px;
+  background: #fe9b00;
+  color: #000;
+}
+
+
+.blog-updates {
+  float: left;
+  width: 660px;
+}
+
+.content-us {
+  float: right;
+  width: 255px;
+}
+
+.small-heading {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  color: #090909;
+}
+
+.social {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  background: url("../images/spritesheet.png") no-repeat center;
+}
+
+.social:last-child {
+  margin-right: 0;
+}
+
+.social-tw {
+  background-position: -10px -166px;
+}
+
+.social-fb {
+  background-position: -10px -62px;
+}
+
+.social-clicker {
+  background-position: -10px -10px;
+}
+
+.social-rss {
+  background-position: -10px -114px;
+}
+
+.main-footer {
+  margin-top: 45px;
+  background: #e2e2e2;
+}
+
+.footer-navigation {
+  padding: 30px 0;
+  float: left;
+}
+
+.footer-navigation li {
+  display: inline-block;
+  padding-right: 5px;
+  margin-right: 5px;
+  border-right: 2px solid #c7c7c7;
+}
+
+.footer-navigation a {
+  font-size: 12px;
+  line-height: 20px;
+  color: #5d5d5d;
+}
+
+.main-footer p {
+  margin-top: 10px;
+}
+
+.footer-logo {
+  float: right;
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
